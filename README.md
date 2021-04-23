@@ -1,5 +1,8 @@
 # Train and Deploy Machine Learning Model With Web Interface - Docker, PyTorch & Flask
 
+## Architecture
+![Architecture](ml_model.png)
+
 ## Running on Local/cloud machine
 
 Clone the repo and build the docker image
