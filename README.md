@@ -27,7 +27,7 @@ You can use serveo.net or Ngrok to port the application to the web.
 
 ## Useful files 
 
-- Training and saving the CNN model : https://gist.github.com/imadelh/b337c7b16899831d80d9221a9a60e09f
+- Training and saving the CNN model : https://gist.github.com/ahmedbendebba1/f30815efa2f4c0882e9b9531035f5d14
 - Visualize the inference : https://colab.research.google.com/github/ahmedbendebba1/ML-web-app/blob/master/emnist_inference_cnn.ipynb
 
 ## Info
