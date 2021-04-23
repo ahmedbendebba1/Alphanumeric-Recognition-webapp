@@ -1,5 +1,7 @@
 # Train and Deploy Machine Learning Model With Web Interface - Docker, PyTorch & Flask
 
+![alt text](record.gif)
+
 ## Architecture
 ![Architecture](ml_model.png)
 
