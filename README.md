@@ -1,9 +1,11 @@
 # Train and Deploy Machine Learning Model With Web Interface - Docker, PyTorch & Flask
 
-![alt text](record.gif)
+- Serverless version: https://alphanumeric-recognition-ml2jklb2fa-ew.a.run.app/
+
+![alt text](images/record.gif)
 
 ## Architecture
-![Architecture](ml_model.png)
+![Architecture](images/ml_model.png)
 
 ## Running on Local/cloud machine
 
