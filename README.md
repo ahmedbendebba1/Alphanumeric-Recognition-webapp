@@ -7,6 +7,8 @@
 ## Architecture
 ![Architecture](images/ml_model.png)
 
+- I run the web app in gcp google run : https://cloud.google.com/run?hl=fr
+
 ## Running on Local/cloud machine
 
 Clone the repo and build the docker image
