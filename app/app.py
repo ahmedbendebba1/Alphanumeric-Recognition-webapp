@@ -6,7 +6,7 @@ import numpy as np
 
 # declare constants
 HOST = '0.0.0.0'
-PORT = 8888
+PORT = 8080
 
 # initialize flask application
 app = Flask(__name__)
