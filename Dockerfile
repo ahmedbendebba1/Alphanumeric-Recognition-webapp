@@ -1,21 +1,14 @@
-FROM ubuntu:18.04
-
-RUN apt-get update \
-    && apt-get install -yq --no-install-recommends \
-    python3 \
-    python3-pip
-RUN pip3 install --upgrade pip==21.0 \
-    && pip3 install setuptools
-
-# for flask web server
-EXPOSE 8888
+FROM python:3.7-slim-buster
 
 # set working directory
 ADD . /app
 WORKDIR /app
+RUN pip install -r requirements.txt 
 
-# install required libraries
-RUN pip3 install -r requirements.txt
+# for flask web server
+EXPOSE 8080
 
-# This is the runtime command for the container
-CMD python3 app.py
+
+# Default command to run the Gunicorn 
+WORKDIR /app/app
+CMD gunicorn --bind 0.0.0.0:8080 wsgi:app
